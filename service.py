@@ -11,8 +11,8 @@ from fastapi import  File, UploadFile,HTTPException
 from pinecone import Pinecone, ServerlessSpec
 
 PINECONE_INDEX_NAME = "gemini-embeddings-index"
-PINECONE_API_KEY = "pcsk_3HPGEs_PCBVqmWVxbrgZWnCMHXpSxGQozGL3qfmNWv4wQNdLkQGzuDTbFMG8McdcGwp5bm"
-GEMINI_API_KEY = "AIzaSyBeeZcJVM_91WDiqrHoRdlW6Td3Pe3YUjw"
+PINECONE_API_KEY = "PINECONE_API_KEY"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 UPLOAD_DIR = "uploaded_pdfs"
 EMBEDDING_DIM = 768
 
